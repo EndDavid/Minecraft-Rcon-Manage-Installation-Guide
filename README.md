@@ -66,9 +66,9 @@ cd Minecraft-Rcon-Manage/
 2. 下载Endless Manager后端jar
 文件较大，推荐使用aria2多线程下载
 ```bash
-aria2c -s 8 -x 8 https://release-assets.githubusercontent.com/github-production-release-asset/770347872/4d4b8f2f-920d-4011-8355-83a8818fb657   # 以3.8.2版本为例
+aria2c -s 8 -x 8 https://github.com/pilgrimage233/Minecraft-Rcon-Manage/releases/download/v3.8.5-44418ea/endless-manager-springboot3-3.8.5.jar
 ```
-运行`java -jar endless-manager-<version>.jar`，此时会在`/config`下生成配置文件`application-druid.yml` `application.yml`，且进程会报错停止运行一次，为正常现象。
+运行`java -jar endless-manager-<version>.jar`，此时会在`config/`下生成配置文件`application-druid.yml` `application.yml`，且进程会报错停止运行一次，为正常现象。
 
 编辑文件`application-druid.yml`
 ```bash
